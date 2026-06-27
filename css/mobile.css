@@ -1,50 +1,26 @@
 #hamburger{
-
 display:none;
-
 }
-
-
 
 @media(max-width:768px){
+    #hamburger{
+    display:block;
+    }
 
-#hamburger{
+    #sidebar{
+    position:fixed;
+    left:-300px;
+    top:60px;
+    height:100%;
+    transition:.3s;
+    z-index:100;
+    }
 
-display:block;
+    #sidebar.open{
+    left:0;
+    }
 
-}
-
-
-#sidebar{
-
-position:fixed;
-
-left:-300px;
-
-top:60px;
-
-height:100%;
-
-transition:.3s;
-
-z-index:100;
-
-}
-
-
-#sidebar.open{
-
-left:0;
-
-}
-
-
-
-.container{
-
-display:block;
-
-}
-
-
+    .container{
+    display:block;
+    }
 }

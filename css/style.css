@@ -1,150 +1,105 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
-
 
 body{
-
-font-family:sans-serif;
-
-background:#1f1f1f;
-
-color:white;
-
+    font-family:sans-serif;
+    background:#1f1f1f;
+    color:white;
 }
-
 
 header{
-
-height:60px;
-
-display:flex;
-
-align-items:center;
-
-padding:0 20px;
-
-background:#2f2f2f;
-
+    height:60px;
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+    background:#2f2f2f;
 }
-
 
 header h1{
-
-margin-left:20px;
-
+    margin-left:20px;
 }
-
-
 
 .container{
-
-display:flex;
-
-height:calc(100vh - 60px);
-
+    display:flex;
+    height:calc(100vh - 60px);
 }
-
-
 
 #sidebar{
-
-width:300px;
-
-background:#333;
-
-padding:20px;
-
-overflow:auto;
-
+    width: clamp(240px, 25vw, 320px);
+    background:#333;
+    padding:20px;
+    overflow:auto;
 }
-
 
 #detailArea{
-
-flex:1;
-
-padding:30px;
-
-overflow:auto;
-
+    flex:1;
+    padding: clamp(10px, 3vw, 30px);
+    overflow:auto;
 }
-
-
 
 .characterCard{
-
-padding:15px;
-
-margin-bottom:10px;
-
-background:#444;
-
-cursor:pointer;
-
-border-radius:10px;
-
-transition:0.2s;
-
+    padding:15px;
+    margin-bottom:10px;
+    background:#444;
+    cursor:pointer;
+    border-radius:10px;
+    transition:0.2s;
 }
-
-
 
 .characterCard:hover{
-
-background:#666;
-
+    background:#666;
 }
-
-
 
 .characterCard:active{
-
-transform:scale(0.98);
-
+    transform:scale(0.98);
 }
 
 .characterImage{
-
-width:300px;
-
-border-radius:12px;
-
-margin-bottom:20px;
-
+    width: min(600px, 100%);
+    height: auto;
+    display:block;
+    margin: 0 auto;
 }
-
-
 
 .selected{
-
-
-background:#ff7b00;
-
-
+    background:#ff7b00;
 }
-
-
 
 @media(max-width:768px){
+    .container{
+        flex-direction:column;
+    }
 
+    #sidebar{
+        width:100%;
+    }
 
-.characterImage{
-
-width:100%;
-
+    #detailArea{
+        width:100%;
+        padding:16px;
+    }
 }
 
-
+.styleButtons{
+    display:flex;
+    gap:8px;
+    margin-top:20px;
 }
 
 .styleButtons button{
+    flex:1;
+    min-width: 0;
+
+    padding: clamp(6px, 2vw, 10px);
+    font-size: clamp(12px, 2.5vw, 16px);
+
     background:#444;
     color:#ccc;
-    padding:10px 16px;
     transition:0.2s;
+    border-radius:8px;
 }
 
 .styleButtons button.selected{
@@ -152,55 +107,33 @@ width:100%;
     color:white;
 }
 
-
-
 .tabs{
-
-margin-top:20px;
-
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
 }
-
-
 
 .tabs button{
+    flex:1;
+    min-width:0;
 
-padding:10px;
-
-margin-right:10px;
-
+    padding: clamp(6px, 2vw, 10px);
+    font-size: clamp(12px, 2.5vw, 16px);
 }
-
-
-
-
 #contentArea{
-
-
-margin-top:30px;
-
-
+    margin-top:30px;
 }
-
-
-
 
 iframe{
-
-
-border:none;
-
-
-border-radius:10px;
-
-
+    border:none;
+    border-radius:10px;
 }
 
 .filterButtons{
-    display: flex;
-    align-items: center;
-    
-    gap: 8px;
-    
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-bottom:10px;
 }
 
 .filterButtons button{
@@ -212,18 +145,14 @@ border-radius:10px;
     justify-content:center;
 
     padding:0;
-    margin: 5px 0px 10px 0px;
+    margin:0;
     border-radius: 8px;
     border:none;
     font-size:16px;
     line-height:1;
 }
 
-
 .filterButtons button.selected{
-
     background:#4CAF50;
-
     color:white;
-
 }
