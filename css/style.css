@@ -91,7 +91,6 @@ header h1{
     background:#444;
     color:#ccc;
     transition:0.2s;
-    border-radius:8px;
 }
 
 .styleButtons button.selected{
@@ -110,7 +109,6 @@ header h1{
     min-width:0;
     padding: clamp(6px, 2vw, 10px);
     font-size: clamp(12px, 2.5vw, 16px);
-    border-radius:8px;
 }
 
 #contentArea{
