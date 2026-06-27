@@ -3,7 +3,7 @@
         "id":"ryu",
         "name":"リュウ",
         "image":"assets/images/ryu.png",
-        "description":"弾持ち、無敵技、柔道あり",
+        "description":"火力が高い！オールラウンダー",
         "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
         "classic":{
             "combos":[
@@ -32,7 +32,7 @@
         "id":"ken",
         "name":"ケン",
         "image":"assets/images/ken.png",
-        "description":"弾持ち、無敵技、柔道あり",
+        "description":"壁際での豊富な攻め択で破壊！",
         "youtube":"https://youtu.be/MjlZar5pQno?si=gTseYyOwtqqBXgP7",
         "classic":{
             "combos":[
@@ -46,7 +46,7 @@
         },
         "modern":{
             "combos":[
-                "アシスト中",
+                "下中K > CR > アシスト中完走",
                 "アシスト大"
             ],
             "neutral":[
@@ -58,9 +58,38 @@
     },
 
     {
-        "id":"akuma",
+        "id":"guile",
+        "name":"ガイル",
+        "image":"assets/images/guile.png",
+        "description":"待ちガイルはすべてを解決する",
+        "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
+        "classic":{
+            "combos":[
+                "立中P > 立中K > 波動拳",
+                "しゃが中P >  > 昇龍拳"
+            ],
+            "neutral":[
+                "とにかく弾！！！",
+                "飛びが届かない安全弾を意識！",
+                "下中K、前中Pのタゲコンが強い",
+                "前中K、前大Kで牽制しよう"
+            ]
+        },
+        "modern":{
+            "combos":[
+                "調べ中"
+            ],
+            "neutral":[
+                "とにかく弾！！！"
+            ]
+        },
+        "favourite":false
+    },
+
+    {
+        "id":"gouki",
         "name":"豪鬼",
-        "image":"assets/images/akuma.png",
+        "image":"assets/images/gouki.png",
         "description":"弾持ち、無敵技、柔道あり",
         "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
         "classic":{
