@@ -78,7 +78,7 @@ header h1{
 .styleButtons{
     display:flex;
     gap:8px;
-    margin-top:20px;
+    margin: 20px 0px 10px 0px;
 }
 
 .styleButtons button{
