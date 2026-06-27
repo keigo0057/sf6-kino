@@ -93,6 +93,10 @@ function renderCharacterList(){
 
 
         div.onclick=()=>{
+            gtag('event', 'select_character', {
+            character_name: character.name
+            });
+
             showCharacter(character);
             highlight(character.id);
 
@@ -305,9 +309,20 @@ function toggleFavorite(id){
 
     if (favorites.includes(id)) {
         favorites=favorites.filter (f=>f!==id);
+
+        gtag('event', 'favorite_toggle', {
+        character_id: id,
+        action: 'remove'
+        });
+
     }
     else {
     favorites.push(id);
+
+    gtag('event', 'favorite_toggle', {
+    character_id: id,
+    action: 'add'
+    });
     }
 
     localStorage.setItem("favorites",JSON.stringify(favorites));
