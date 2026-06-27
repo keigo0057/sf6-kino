@@ -2,18 +2,24 @@
     {
         "id":"ryu",
         "name":"リュウ",
-        "image":"assets/images/ryu.png"
+        "image":"assets/images/ryu.png",
+        "description":"弾持ち、無敵技、柔道あり",
+        "favourite":false
     },
 
     {
         "id":"ken",
         "name":"ケン",
-        "image":"assets/images/ken.png"
+        "image":"assets/images/ken.png",
+        "description":"弾持ち、無敵技、柔道あり",
+        "favourite":false
     },
 
     {
         "id":"akuma",
         "name":"豪鬼",
-        "image":"assets/images/akuma.png"
+        "image":"assets/images/akuma.png",
+        "description":"弾持ち、無敵技、柔道あり",
+        "favourite":false
     }
 ]
