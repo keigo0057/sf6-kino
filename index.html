@@ -3,25 +3,54 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>SF6キャラ図鑑</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SF6 道場</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 
 <body>
 
-<h1>ストリートファイター6 キャラ図鑑</h1>
+<header>
+
+<button id="hamburger">
+☰
+</button>
+
+<h1>SF6 道場</h1>
+
+</header>
+
 
 <div class="container">
 
-    <div id="characterList"></div>
+<nav id="sidebar">
 
-    <div id="detail">
-        <h2>キャラクターを選択してください</h2>
-    </div>
+<h2>キャラクター</h2>
+
+<div id="characterList"></div>
+
+</nav>
+
+
+
+<main id="detailArea">
+
+<h2>キャラクターを選択してください</h2>
+
+</main>
 
 </div>
 
-<script src="script.js"></script>
+
+
+<script type="module"
+        src="js/app.js">
+</script>
 
 </body>
+
 </html>
