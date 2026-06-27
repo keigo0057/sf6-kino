@@ -4,6 +4,7 @@
     box-sizing:border-box;
 }
 
+
 body{
     font-family:sans-serif;
     background:#1f1f1f;
@@ -28,7 +29,7 @@ header h1{
 }
 
 #sidebar{
-    width: clamp(240px, 25vw, 320px);
+    width:300px;
     background:#333;
     padding:20px;
     overflow:auto;
@@ -36,7 +37,7 @@ header h1{
 
 #detailArea{
     flex:1;
-    padding: clamp(10px, 3vw, 30px);
+    padding:30px;
     overflow:auto;
 }
 
@@ -69,17 +70,8 @@ header h1{
 }
 
 @media(max-width:768px){
-    .container{
-        flex-direction:column;
-    }
-
-    #sidebar{
+    .characterImage{
         width:100%;
-    }
-
-    #detailArea{
-        width:100%;
-        padding:16px;
     }
 }
 
@@ -116,10 +108,11 @@ header h1{
 .tabs button{
     flex:1;
     min-width:0;
-
     padding: clamp(6px, 2vw, 10px);
     font-size: clamp(12px, 2.5vw, 16px);
+    border-radius:8px;
 }
+
 #contentArea{
     margin-top:30px;
 }
@@ -130,10 +123,9 @@ iframe{
 }
 
 .filterButtons{
-    display:flex;
-    align-items:center;
-    gap:8px;
-    margin-bottom:10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;    
 }
 
 .filterButtons button{
@@ -145,7 +137,7 @@ iframe{
     justify-content:center;
 
     padding:0;
-    margin:0;
+    margin: 5px 0px 10px 0px;
     border-radius: 8px;
     border:none;
     font-size:16px;
