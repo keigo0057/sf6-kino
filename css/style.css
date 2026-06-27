@@ -128,22 +128,6 @@ background:#ff7b00;
 
 
 
-#favoriteBtn{
-
-
-padding:10px;
-
-
-margin-bottom:20px;
-
-
-cursor:pointer;
-
-
-}
-
-
-
 @media(max-width:768px){
 
 
@@ -156,19 +140,16 @@ width:100%;
 
 }
 
-.styleButtons{
-
-margin-top:20px;
-
+.styleButtons button{
+    background:#444;
+    color:#ccc;
+    padding:10px 16px;
+    transition:0.2s;
 }
 
-
-.styleButtons button{
-
-padding:10px;
-
-margin-right:10px;
-
+.styleButtons button.selected{
+    background:#ff7b00;
+    color:white;
 }
 
 
@@ -211,5 +192,38 @@ border:none;
 
 border-radius:10px;
 
+
+}
+
+.filterButtons{
+    display: flex;
+    align-items: center;
+    
+    gap: 8px;
+    
+}
+
+.filterButtons button{
+    flex:1;
+    height:50px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:0;
+    margin: 5px 0px 10px 0px;
+    border-radius: 8px;
+    border:none;
+    font-size:16px;
+    line-height:1;
+}
+
+
+.filterButtons button.selected{
+
+    background:#4CAF50;
+
+    color:white;
 
 }
