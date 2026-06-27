@@ -1,0 +1,19 @@
+[
+    {
+        "id":"ryu",
+        "name":"リュウ",
+        "image":"assets/images/ryu.png"
+    },
+
+    {
+        "id":"ken",
+        "name":"ケン",
+        "image":"assets/images/ken.png"
+    },
+
+    {
+        "id":"akuma",
+        "name":"豪鬼",
+        "image":"assets/images/akuma.png"
+    }
+]
