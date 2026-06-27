@@ -78,7 +78,7 @@ header h1{
 .styleButtons{
     display:flex;
     gap:8px;
-    margin-top:20px;
+    margin: 20px 0px 10px 0px;
 }
 
 .styleButtons button{
@@ -91,7 +91,6 @@ header h1{
     background:#444;
     color:#ccc;
     transition:0.2s;
-    border-radius:8px;
 }
 
 .styleButtons button.selected{
@@ -100,6 +99,7 @@ header h1{
 }
 
 .tabs{
+    border-radius:0;
     display:flex;
     gap:8px;
     flex-wrap:wrap;
@@ -108,9 +108,9 @@ header h1{
 .tabs button{
     flex:1;
     min-width:0;
+    border-radius:0;
     padding: clamp(6px, 2vw, 10px);
     font-size: clamp(12px, 2.5vw, 16px);
-    border-radius:8px;
 }
 
 #contentArea{
@@ -119,7 +119,6 @@ header h1{
 
 iframe{
     border:none;
-    border-radius:10px;
 }
 
 .filterButtons{
