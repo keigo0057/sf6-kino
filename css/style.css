@@ -107,6 +107,7 @@ header h1{
 .tabs button{
     flex:1;
     min-width:0;
+    border-radius:0;
     padding: clamp(6px, 2vw, 10px);
     font-size: clamp(12px, 2.5vw, 16px);
 }
