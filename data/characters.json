@@ -4,6 +4,27 @@
         "name":"リュウ",
         "image":"assets/images/ryu.png",
         "description":"弾持ち、無敵技、柔道あり",
+        "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
+        "classic":{
+            "combos":[
+                "立中P > 立中K > 波動拳",
+                "しゃが中P >  > 昇龍拳"
+            ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
+        "modern":{
+            "combos":[
+                "アシスト中",
+                "アシスト大"
+            ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
         "favourite":false
     },
 
@@ -12,6 +33,27 @@
         "name":"ケン",
         "image":"assets/images/ken.png",
         "description":"弾持ち、無敵技、柔道あり",
+        "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
+        "classic":{
+            "combos":[
+                "立中P > 立中K > 波動拳",
+                "しゃが中P >  > 昇龍拳"
+            ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
+        "modern":{
+            "combos":[
+                "アシスト中",
+                "アシスト大"
+            ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
         "favourite":false
     },
 
@@ -20,6 +62,27 @@
         "name":"豪鬼",
         "image":"assets/images/akuma.png",
         "description":"弾持ち、無敵技、柔道あり",
+        "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
+        "classic":{
+            "combos":[
+                "立中P > 立中K > 波動拳",
+                "しゃが中P >  > 昇龍拳"
+            ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
+        "modern":{
+            "combos":[
+                "アシスト中",
+                "アシスト大"
+            ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
         "favourite":false
     }
 ]

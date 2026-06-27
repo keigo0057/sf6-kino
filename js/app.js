@@ -9,6 +9,8 @@ document.getElementById("detailArea");
 
 
 let characters=[];
+let currentStyle="classic";
+let currentTab="combo";
 
 
 
@@ -99,64 +101,201 @@ function renderCharacterList(){
 
 function showCharacter(character){
 
-
 detailArea.innerHTML=`
 
-
 <img
-
 class="characterImage"
-
-src="${character.image}"
-
->
+src="${character.image}">
 
 
-<h2>
+<h2>${character.name}</h2>
 
-${character.name}
-
-</h2>
+<p>${character.description}</p>
 
 
-<button id="favoriteBtn">
+<div class="styleButtons">
 
-お気に入り
-
+<button id="classicBtn">
+クラシック
 </button>
 
 
-<p>
+<button id="modernBtn">
+モダン
+</button>
 
-${character.description}
-
-</p>
+</div>
 
 
+
+<div class="tabs">
+
+<button id="comboTab">
+コンボ
+</button>
+
+<button id="neutralTab">
+立ち回り
+</button>
+
+<button id="videoTab">
+動画
+</button>
+
+</div>
+
+
+
+<div id="contentArea">
+
+</div>
 
 `;
 
 
-
-
 document
-.getElementById("favoriteBtn")
-
+.getElementById("classicBtn")
 .onclick=()=>{
 
+currentStyle="classic";
 
-toggleFavorite(character.id);
-
-
-renderCharacterList();
-
-
-showCharacter(character);
-
-
+renderContent(character);
 
 };
 
+
+document
+.getElementById("modernBtn")
+.onclick=()=>{
+
+currentStyle="modern";
+
+renderContent(character);
+
+};
+
+
+
+document
+.getElementById("comboTab")
+.onclick=()=>{
+
+currentTab="combo";
+
+renderContent(character);
+
+};
+
+
+
+document
+.getElementById("neutralTab")
+.onclick=()=>{
+
+currentTab="neutral";
+
+renderContent(character);
+
+};
+
+
+
+document
+.getElementById("videoTab")
+.onclick=()=>{
+
+currentTab="video";
+
+renderContent(character);
+
+};
+
+
+
+renderContent(character);
+
+}
+
+function renderContent(character){
+
+const content=
+document.getElementById("contentArea");
+
+
+
+if(currentTab==="combo"){
+
+
+content.innerHTML=`
+
+<h3>コンボ</h3>
+
+
+<ul>
+
+${character[currentStyle]
+.combos
+
+.map(c=>`<li>${c}</li>`)
+
+.join("")}
+
+
+</ul>
+
+`;
+
+}
+
+
+
+else if(currentTab==="neutral"){
+
+
+content.innerHTML=`
+
+<h3>立ち回り</h3>
+
+
+<ul>
+
+${character[currentStyle]
+.neutral
+
+.map(n=>`<li>${n}</li>`)
+
+.join("")}
+
+</ul>
+
+`;
+
+}
+
+
+
+else{
+
+
+content.innerHTML=`
+
+<iframe
+
+width="100%"
+
+height="400"
+
+
+src="${character.youtube}"
+
+
+allowfullscreen>
+
+</iframe>
+
+`;
+
+}
 
 
 }
