@@ -117,6 +117,15 @@ header h1{
     margin-top:30px;
 }
 
+#contentArea ul{
+    padding-left:24px;
+    margin-top:10px;
+}
+
+#contentArea li{
+    margin-bottom:10px;
+}
+
 iframe{
     border:none;
 }
@@ -146,4 +155,22 @@ iframe{
 .filterButtons button.selected{
     background:#4CAF50;
     color:white;
+}
+
+.inputIcon{
+    width:18px;
+    height:18px;
+    vertical-align:middle;
+}
+
+.comboStep{
+    display:inline-flex;
+    align-items:center;
+    gap:2px;
+}
+
+.arrow{
+    margin:0 8px;
+    font-weight:bold;
+    font-size:20px;
 }

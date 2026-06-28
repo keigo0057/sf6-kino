@@ -245,43 +245,50 @@ function updateStyleButtons(){
 
 function renderContent(character){
 
-    const content=
-    document.getElementById("contentArea");
+    const content = document.getElementById("contentArea");
 
-    if (currentTab==="combo") {
-        content.innerHTML=`
+    if(currentTab === "combo"){
+        content.innerHTML = `
         <h3>コンボ</h3>
         <ul>
-        ${character[currentStyle]
-        .combos
-        .map(c=>`<li>${c}</li>`)
+        ${character[currentStyle].combos.map(combo => `
+            <li>
+                ${combo.steps.map(step => `
+                    <span class="comboStep">
+                        ${step.map(input => `
+                            <img
+                                src="assets/icons/${input}.png"
+                                class="inputIcon">
+                        `).join("")}
+                    </span>
+                `).join('<span class="arrow">＞</span>')}
+            </li>
+        `)
         .join("")}
         </ul>
         `;
     }
-    else if (currentTab==="neutral") {
-        content.innerHTML=`
+    else if(currentTab === "neutral"){
+        content.innerHTML = `
         <h3>立ち回り</h3>
         <ul>
-        ${character[currentStyle]
-        .neutral
-        .map(n=>`<li>${n}</li>`)
-        .join("")}
+        ${character[currentStyle].neutral.map(n => `<li>${n}</li>`)
+            .join("")
+        }
         </ul>
         `;
     }
-    else {
-        content.innerHTML=`
+    else{
+        content.innerHTML = `
         <iframe
-        width="100%"
-        height="400"
-        src="${character.youtube}"
-        allowfullscreen>
+            width="100%"
+            height="400"
+            src="${character.youtube}"
+            allowfullscreen>
         </iframe>
         `;
     }
 }
-
 function highlight(id){
     document.querySelectorAll(".characterCard")
     .forEach(card=>{

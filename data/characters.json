@@ -6,20 +6,30 @@
         "description":"火力が高い！オールラウンダー",
         "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
         "classic":{
-            "combos":[
-                "立中P > 立中K > 波動拳",
-                "しゃが中P >  > 昇龍拳"
-            ],
+        "combos": [
+            {
+                "steps": [
+                    ["sita", "mp"],
+                    ["sita", "hp"],
+                    ["sita", "lk"]
+                ]
+            }
+        ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
             ]
         },
         "modern":{
-            "combos":[
-                "アシスト中",
-                "アシスト大"
-            ],
+        "combos": [
+            {
+                "steps": [
+                    ["sita", "mp"],
+                    ["sita", "hp"],
+                    ["sita", "lk"]
+                ]
+            }
+        ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
@@ -35,20 +45,30 @@
         "description":"壁際での豊富な攻め択で破壊！",
         "youtube":"https://www.youtube.com/embed/MjlZar5pQno",
         "classic":{
-            "combos":[
-                "立中P > 立中K > 波動拳",
-                "しゃが中P >  > 昇龍拳"
-            ],
+        "combos": [
+            {
+                "steps": [
+                    ["sita", "mp"],
+                    ["sita", "hp"],
+                    ["sita", "lk"]
+                ]
+            }
+        ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
             ]
         },
         "modern":{
-            "combos":[
-                "下中K > CR > アシスト中完走",
-                "アシスト大"
-            ],
+        "combos": [
+            {
+                "steps": [
+                    ["sita", "mp"],
+                    ["sita", "hp"],
+                    ["sita", "lk"]
+                ]
+            }
+        ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
@@ -64,10 +84,15 @@
         "description":"待ちガイルはすべてを解決する",
         "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
         "classic":{
-            "combos":[
-                "立中P > 立中K > 波動拳",
-                "しゃが中P >  > 昇龍拳"
-            ],
+        "combos": [
+            {
+                "steps": [
+                    ["sita", "mp"],
+                    ["sita", "hp"],
+                    ["sita", "lk"]
+                ]
+            }
+        ],
             "neutral":[
                 "とにかく弾！！！",
                 "飛びが届かない安全弾を意識！",
@@ -76,9 +101,15 @@
             ]
         },
         "modern":{
-            "combos":[
-                "調べ中"
-            ],
+        "combos": [
+            {
+                "steps": [
+                    ["sita", "mp"],
+                    ["sita", "hp"],
+                    ["sita", "lk"]
+                ]
+            }
+        ],
             "neutral":[
                 "とにかく弾！！！"
             ]
@@ -93,20 +124,30 @@
         "description":"弾持ち、無敵技、柔道あり",
         "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
         "classic":{
-            "combos":[
-                "立中P > 立中K > 波動拳",
-                "しゃが中P >  > 昇龍拳"
-            ],
+        "combos": [
+            {
+                "steps": [
+                    ["sita", "mp"],
+                    ["sita", "hp"],
+                    ["sita", "lk"]
+                ]
+            }
+        ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
             ]
         },
         "modern":{
-            "combos":[
-                "アシスト中",
-                "アシスト大"
-            ],
+        "combos": [
+            {
+                "steps": [
+                    ["sita", "mp"],
+                    ["sita", "hp"],
+                    ["sita", "lk"]
+                ]
+            }
+        ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
