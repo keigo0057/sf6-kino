@@ -359,4 +359,44 @@ function getCurrentCharState(id){
     };
 }
 
+let startX = 0;
+let startY = 0;
+
+document.addEventListener("touchstart", (e) => {
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+});
+
+document.addEventListener("touchend", (e) => {
+
+    const endX = e.changedTouches[0].clientX;
+    const endY = e.changedTouches[0].clientY;
+
+    const diffX = endX - startX;
+    const diffY = Math.abs(endY - startY);
+
+    // 縦スクロールなら無視
+    if (diffY > 50) return;
+
+    // 左端30px以内から右へ80px以上スワイプ
+    if (startX < window.innerWidth * 0.5 && diffX > 40) {
+    sidebar.classList.add("open");
+
+    // メニューが開いているとき、左へ80px以上スワイプで閉じる
+    if (sidebar.classList.contains("open") && diffX < -80) {
+        sidebar.classList.remove("open");
+    }
+}});
+
+document.addEventListener("click", (e) => {
+    if (
+        window.innerWidth <= 768 &&
+        sidebar.classList.contains("open") &&
+        !sidebar.contains(e.target) &&
+        e.target !== hamburger
+    ) {
+        sidebar.classList.remove("open");
+    }
+});
+
 loadCharacters();
