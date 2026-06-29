@@ -370,22 +370,12 @@ document.addEventListener("touchstart", (e) => {
 document.addEventListener("touchend", (e) => {
 
     const endX = e.changedTouches[0].clientX;
-    const endY = e.changedTouches[0].clientY;
-
     const diffX = endX - startX;
-    const diffY = Math.abs(endY - startY);
 
-    // 縦スクロールなら無視
-    if (diffY > 50) return;
+    alert(`start:${startX} end:${endX} diff:${diffX}`);
 
-    // 左端30px以内から右へ80px以上スワイプ
-    if (startX < 30 && diffX > 80) {
+    if (diffX > 80) {
         sidebar.classList.add("open");
-    }
-
-    // メニューが開いているとき、左へ80px以上スワイプで閉じる
-    if (sidebar.classList.contains("open") && diffX < -80) {
-        sidebar.classList.remove("open");
     }
 });
 
