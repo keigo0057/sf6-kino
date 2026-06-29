@@ -253,18 +253,26 @@ function renderContent(character){
         <ul>
         ${character[currentStyle].combos.map(combo => `
             <li>
-                ${combo.steps.map(step => `
-                    <span class="comboStep">
-                        ${step.map(input => `
-                            <img
-                                src="assets/icons/${input}.png"
-                                class="inputIcon">
-                        `).join("")}
-                    </span>
-                `).join('<span class="arrow">＞</span>')}
+                <div class="comboText">${combo.text}</div>
+
+                ${combo.routes.map(route => `
+                    <div class="comboRoute">
+                        ${route.steps
+                            .map(step => `
+                                <span class="comboStep">
+                                    ${step
+                                        .map(input => `
+                                            <img src="assets/icons/${input}.png"
+                                                class="inputIcon">
+                                        `)
+                                        .join("")}
+                                </span>
+                            `)
+                            .join('<span class="arrow">＞</span>')}
+                    </div>
+                `).join("")}
             </li>
-        `)
-        .join("")}
+        `).join("")}
         </ul>
         `;
     }

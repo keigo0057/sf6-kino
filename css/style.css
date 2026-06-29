@@ -126,6 +126,17 @@ header h1{
     margin-bottom:10px;
 }
 
+.comboText{
+    display:block;
+    margin-top:6px;
+    color:#ffffff;
+    font-size:18px;
+}
+
+.comboRoute{
+    margin-bottom:28px;
+}
+
 iframe{
     border:none;
 }

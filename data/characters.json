@@ -7,14 +7,26 @@
         "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
         "classic":{
         "combos": [
-            {
-                "steps": [
-                    ["sita", "mp"],
-                    ["sita", "hp"],
-                    ["sita", "lk"]
-                ]
-            }
-        ],
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
@@ -22,14 +34,26 @@
         },
         "modern":{
         "combos": [
-            {
-                "steps": [
-                    ["sita", "mp"],
-                    ["sita", "hp"],
-                    ["sita", "lk"]
-                ]
-            }
-        ],
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
@@ -46,14 +70,26 @@
         "youtube":"https://www.youtube.com/embed/MjlZar5pQno",
         "classic":{
         "combos": [
-            {
-                "steps": [
-                    ["sita", "mp"],
-                    ["sita", "hp"],
-                    ["sita", "lk"]
-                ]
-            }
-        ],
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
@@ -61,14 +97,26 @@
         },
         "modern":{
         "combos": [
-            {
-                "steps": [
-                    ["sita", "mp"],
-                    ["sita", "hp"],
-                    ["sita", "lk"]
-                ]
-            }
-        ],
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
@@ -85,14 +133,26 @@
         "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
         "classic":{
         "combos": [
-            {
-                "steps": [
-                    ["sita", "mp"],
-                    ["sita", "hp"],
-                    ["sita", "lk"]
-                ]
-            }
-        ],
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
             "neutral":[
                 "とにかく弾！！！",
                 "飛びが届かない安全弾を意識！",
@@ -102,14 +162,26 @@
         },
         "modern":{
         "combos": [
-            {
-                "steps": [
-                    ["sita", "mp"],
-                    ["sita", "hp"],
-                    ["sita", "lk"]
-                ]
-            }
-        ],
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
             "neutral":[
                 "とにかく弾！！！"
             ]
@@ -125,14 +197,26 @@
         "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
         "classic":{
         "combos": [
-            {
-                "steps": [
-                    ["sita", "mp"],
-                    ["sita", "hp"],
-                    ["sita", "lk"]
-                ]
-            }
-        ],
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
@@ -140,14 +224,233 @@
         },
         "modern":{
         "combos": [
-            {
-                "steps": [
-                    ["sita", "mp"],
-                    ["sita", "hp"],
-                    ["sita", "lk"]
-                ]
-            }
-        ],
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
+        "favourite":false
+    },
+
+    {
+        "id":"aki",
+        "name":"A.K.I",
+        "image":"assets/images/aki.png",
+        "description":"コンボの楽しいキャラ",
+        "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
+        "classic":{
+        "combos": [
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "lp"],
+                                    ["lp"],
+                                    ["lp"],
+                                    ["sita","mn","migi","hp"],
+                                    ["sita","mn","migi","mk"]
+                                ]  
+                            },
+                            {
+                                "steps": [
+                                    ["mk"],
+                                    ["mp"],
+                                    ["sita","mn","migi","hp"]
+                                ] 
+                            },
+                            {
+                                "steps": [
+                                    ["hk"],
+                                    ["sita","np","np"],
+                                    ["nk"],
+                                    ["sita", "lp"],
+                                    ["lp"],
+                                    ["lp"],
+                                    ["sita","mn","migi","hp"],
+                                    ["sita","mn","migi","mk"]
+                                ]
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "text": "インパクト後",
+                        
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["ue"],
+                                    ["hk"],
+                                    ["r"],
+                                    ["hk"],
+                                    ["sita","np","np"],
+                                    ["np"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
+            "neutral":[
+                "弾を出してラッシュで攻める！",
+                "牽制では中Kを振ろう",
+                "大Kや大Pでリーチの長い差仕返しを狙おう",
+                "OD凶襲突で有利を取る",
+                "飛びの通る位置での弾、弱鞭は気を付けよう！"
+            ]
+        },
+        "modern":{
+        "combos": [
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "l"],
+                                    ["sita", "l"],
+                                    ["sita","mn","migi","h"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
+            "neutral":[
+                "とにかく弾！！！"
+            ]
+        },
+        "favourite":false
+    },
+
+    {
+        "id":"marisa",
+        "name":"マリーザ",
+        "image":"assets/images/marisa.png",
+        "description":"弾持ち、無敵技、柔道あり",
+        "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
+        "classic":{
+        "combos": [
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
+        "modern":{
+        "combos": [
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["sita", "mp"],
+                                    ["sita", "mp"],
+                                    ["tsita","ue","nk"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"],
+                                    ["mk"],
+                                    ["hadou"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
+        "favourite":false
+    },
+
+    {
+        "id":"juri",
+        "name":"ジュリ",
+        "image":"assets/images/juri.png",
+        "description":"弾持ち、無敵技、柔道あり",
+        "youtube":"https://www.youtube.com/watch?v=1a2b3c4d5e6f",
+        "classic":{
+        "combos": [
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    ["mp"]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    ["mp"]
+                                ]
+                            }
+                        ]
+                    }
+                ],
+            "neutral":[
+                "弾で牽制",
+                "中足を当てることを狙う"
+            ]
+        },
+        "modern":{
+        "combos": [
+                    {
+                        "text": "基本コンボ",
+                        "routes": [
+                            {
+                                "steps": [
+                                    [""]
+                                ]
+                            },
+                            {
+                                "steps": [
+                                    [""]
+                                ]
+                            }
+                        ]
+                    }
+                ],
             "neutral":[
                 "弾で牽制",
                 "中足を当てることを狙う"
@@ -155,4 +458,5 @@
         },
         "favourite":false
     }
+
 ]
